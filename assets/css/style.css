@@ -1,0 +1,66 @@
+body {
+    font-size: 18px;
+    text-align: center;
+    background-image: url(../images/Crystal-Cave-background.jpg);
+    background-size: cover;
+    
+}
+
+.box {
+    background:rgba(255,255,255,0.3);
+    border-radius: 25px;
+}
+
+.row {
+    margin-bottom: 3rem;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    font-size: 4rem;
+    color: rgba(189, 240, 250, 0.938);
+}
+
+p {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+    color: #86f88c;
+}
+
+h4 {
+    font-weight: bold;
+    color: #86f88c;
+}
+
+h5 {
+    font-size:2rem;
+    font-weight: bold;
+}
+
+
+
+.footer {
+  margin-top: 50px;
+  padding-top: 19px;
+  text-align: center;
+  padding: 30px;
+}
+
+.modal{
+    visibility: hidden;
+}
+
+.btn-success {
+    padding: 20px;
+    border: none;
+}

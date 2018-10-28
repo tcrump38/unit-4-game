@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+    
+    <div class="container">
+        <!--First Row-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Crystal Collector Memory Game</h1>
+            </div>
+        </div>
+        <br>
+
+        <!--Second Row-->
+        <div class="row mb-3">
+            <div class="col-lg-4 col-md-4 instructions box text-center">
+                <h3>Instructions</h3>
+                <p>Each round a crystal will store a number. By clicking a crystal 
+                you will add to "Your Score". In order to win a round, you must match 
+                the "Target Score". If you exceed the target score, you will lose the round.
+                After each round, click "Play Again" to start the next round.</p>
+            </div>
+        </div>
+            <div class="row">
+                    <div class="col-md-3 col-sm-3 crystal">
+                        <button class='crystalButton' id='button1'>
+                            <img src="assets/images/pink.png" alt="pink jewel">
+                        </button>
+                    </div>
+                    <div class="col-md-3 col-sm-3 crystal">
+                        <button class='crystalButton' id='button2'>
+                            <img src="assets/images/green.png" alt="green jewel">
+                        </button>
+                    </div>
+                    <div class="col-md-3 col-sm-3 crystal">
+                        <button class='crystalButton' id='button3'>
+                            <img src="assets/images/blue.png" alt="blue jewel">
+                        </button>
+                    </div>
+                    <div class="col-md-3 col-sm-3 crystal">
+                        <button class='crystalButton' id='button4'>
+                            <img src="assets/images/yellow.png" alt="yellow jewel">
+                        </button>
+                    </div>
+            </div>
+
+        <!--Hidden Modal-->
+        <div class="modal alert row text-center">
+            <h3 id="winloss"></h3>
+            <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Play Again</a>
+        </div>
+        <br>
+
+        <!--Third Row-->
+        <div class="row box">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Target Score: </h4>
+                        <div id="scoreTarget"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Your Score: </h4>
+                        <div id="scoreBox">0</div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Wins: </h4>
+                        <div id="wins"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Losses: </h4> 
+                        <div id="losses">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!--Fourth Row-->
+        
+        </div>
+
+    <!--Closing Div for the Body-->
+    </div>
+
+
+
+    <footer class="footer fixed-bottom">
+       <h5> &copy Copyright 2018 | Tyler Crump| <a href="https://github.com/tcrump38">GitHub</a></h5>
+    </footer>
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
