@@ -5,7 +5,7 @@ Link to deployed page: https://tcrump38.github.io/unit-4-game/
 Here I learn how to assign values and generate random numbers in functions using JS and Bootstrap. This was the most challenging part solved by researching on stack overflow.
 
 
-Users start on the home screen where our valued diamods reside:
+Users start on the home screen where our valued diamonds reside:
 <img width="1240" alt="Screen Shot 2019-03-15 at 1 45 50 PM" src="https://user-images.githubusercontent.com/39817046/54455055-e05d8500-4728-11e9-9ed2-358b03426a3e.png">
 
 Start guessing by clicking on diamond icons:
