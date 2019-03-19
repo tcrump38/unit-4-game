@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collector
 
 Link to deployed page: https://tcrump38.github.io/unit-4-game/
 
