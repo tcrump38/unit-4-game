@@ -2,7 +2,7 @@
 
 Link to deployed page: https://tcrump38.github.io/unit-4-game/
 
-Here I learn how to assign values and generate random numbers in functions using JS and Bootstrap. This was the most challenging part solved by researching on stack overflow.
+Here I learn how to assign values and generate random numbers in functions using JS and Bootstrap. This was the most challenging part solved by researching on stack overflow. The data persists in the number logging to eensure continuity.
 
 
 Users start on the home screen where our valued diamonds reside:
